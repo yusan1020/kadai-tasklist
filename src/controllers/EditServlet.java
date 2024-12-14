@@ -45,9 +45,9 @@ public class EditServlet extends HttpServlet {
 
         // メッセージIDをセッションスコープに登録
 
-        if(t != null) {
+
             request.getSession().setAttribute("task_id", t.getId());
-        }
+
 
 
 
